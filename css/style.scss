@@ -150,6 +150,7 @@ img {
             font-size: 20px;
             line-height: (26/20);
             margin-bottom: 15px;
+            color: $black-color;
         }
 
         &__category {
@@ -329,6 +330,16 @@ img {
 
         p {
             margin-top: 40px;
+        }
+    }
+}
+
+.body__top {
+    .card {
+        padding: 0;
+
+        &__text {
+            color: $black-color;
         }
     }
 }
